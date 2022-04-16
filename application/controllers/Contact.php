@@ -7,9 +7,6 @@ class Contact extends CI_Controller
         parent::__construct();
         $this->load->model("contact_model");
     }
-    public function index()
-    {
-    }
 
     public function insert()
     {

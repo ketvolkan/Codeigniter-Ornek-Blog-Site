@@ -1,6 +1,5 @@
-<div class="container">
-    <br>
-    <section class="section-preview bg-light" style="padding: 5%;">
+<div id="colorlib-main"><br><br>
+    <section class="section-preview " style="padding: 5%;">
         <section class="mb-4">
             <h2 class="h1-responsive font-weight-bold text-center my-4">Bize Ulaşın</h2>
             <br><br>
@@ -81,15 +80,15 @@
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>Aydın Türkiye</p>
+                            <p><?php echo $setting->contact_adress; ?></p>
                         </li>
 
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p>+ 90 599 923 99 99</p>
+                            <p><?php echo $setting->contact_phone; ?></p>
                         </li>
 
                         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p>ket@studio.com</p>
+                            <p><?php echo $setting->contact_mail; ?></p>
                         </li>
                     </ul>
                 </div>
@@ -98,4 +97,3 @@
 
         </section>
     </section> <br><br><br>
-</div>
