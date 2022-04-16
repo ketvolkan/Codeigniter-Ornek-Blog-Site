@@ -14,7 +14,10 @@ class Post_Model extends CI_Model
     {
         return $this->db->get($this->tableName)->result();
     }
-
+    public function getById($id)
+    {
+        return $this->db->where("id", $id)->get($this->tableName)->result();
+    }
     public function insert($data = array())
     {
         return $this->db->insert($this->tableName, $data);

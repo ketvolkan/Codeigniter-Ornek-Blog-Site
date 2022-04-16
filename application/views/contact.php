@@ -1,9 +1,9 @@
-<?php require_once('includes/header.php'); ?>
+<?php $this->load->view('includes/header.php'); ?>
 
 <body>
-    <?php require_once('includes/components/navbar.php'); ?>
-    <?php require_once('includes/components/contact/contact_body.php'); ?>
-    <?php require_once('includes/footer.php'); ?>
+    <?php $this->load->view('includes/components/navbar.php'); ?>
+    <?php $this->load->view('includes/components/contact/contact_body.php'); ?>
+    <?php $this->load->view('includes/footer.php'); ?>
 </body>
 
 </html>

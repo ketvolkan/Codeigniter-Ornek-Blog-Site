@@ -23,7 +23,7 @@
                     </p>
                     <div class="row ">
                         <div class="col-sm-9"></div>
-                        <div class="col-sm-3"><a href="#" style="width: 100%;" class="btn btn-outline-dark">Devamını Oku</a></div>
+                        <div class="col-sm-3"><a href="<?php echo base_url("Post/PostDetail?id=$post->id") ?>" style="width: 100%;" class="btn btn-outline-dark">Devamını Oku</a></div>
                     </div>
                 </div><br>
             </div>

@@ -20,7 +20,7 @@
 
                 <div class="col-sm-12 text-center">
                     <br>
-                    Volkan Ket Codeigniter & Bootstrap5 Example.
+                    Volkan Ket Codeigniter & Bootstrap5 Example. <?php echo date("Y-M-D - H-m-s"); ?>
                 </div>
             </div>
         </div>

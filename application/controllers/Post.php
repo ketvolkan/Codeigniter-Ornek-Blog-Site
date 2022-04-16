@@ -31,4 +31,14 @@ class Post extends CI_Controller
     {
         $this->load->view('about');
     }
+    public function postDetail()
+    {
+
+        $currentId =  $this->input->get("id");
+        $currentPost = $this->post_model->getById($currentId);
+        $viewData = array(
+            "currentPost" => $currentPost[0],
+        );
+        $this->load->view('post_detail', $viewData);
+    }
 }
