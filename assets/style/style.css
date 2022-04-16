@@ -1,0 +1,8 @@
+.mapHref {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.mapHref:hover {
+    color: white;
+}
